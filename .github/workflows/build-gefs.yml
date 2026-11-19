@@ -2,7 +2,7 @@ name: Produire cartes et tableaux GEFS
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 5,11,17,23 * * *'
+    - cron: "32 13 * * *"
 permissions:
   contents: write
 concurrency:
