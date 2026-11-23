@@ -2,7 +2,7 @@ name: Produire cartes et tableaux GEFS
 on:
   schedule:
     # 1 run par jour (GEFS 00Z), à une heure différente des autres modèles.
-    - cron: "50 5 * * *"
+    - cron: "55 7 * * *"
   workflow_dispatch:
   # Pas de planification pour l'instant : lancement à la main (workflow_dispatch).
 permissions:
